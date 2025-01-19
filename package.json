@@ -2,6 +2,7 @@
   "name": "typescript-factorio-mod-template",
   "type": "module",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.0.0",
   "description": "A template for creating Factorio mods using TypeScript",
   "author": {
     "name": "LemonNeko",
@@ -15,6 +16,9 @@
     "mod",
     "template"
   ],
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "tstl --watch",
     "build": "tstl",

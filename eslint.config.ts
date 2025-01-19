@@ -9,6 +9,7 @@ export default antfu({
     'ts/naming-convention': 'error',
   },
   files: ['**/*.ts'], // other typescript files will use the default config
+  ignores: ['eslint.config.ts'],
 }, {
   rules: {
     'ts/naming-convention': [
