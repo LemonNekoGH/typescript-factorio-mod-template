@@ -1,0 +1,35 @@
+{
+  "name": "typescript-factorio-mod-template",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A template for creating Factorio mods using TypeScript",
+  "author": {
+    "name": "LemonNeko",
+    "email": "self@lemonneko.moe",
+    "url": "https://github.com/LemonNekoGH"
+  },
+  "license": "MIT",
+  "keywords": [
+    "factorio",
+    "typescript",
+    "mod",
+    "template"
+  ],
+  "scripts": {
+    "dev": "tstl --watch",
+    "build": "tstl",
+    "lint": "eslint --cache .",
+    "lint:fix": "eslint --cache --fix ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.14.0",
+    "@antfu/ni": "^23.2.0",
+    "eslint": "^9.18.0",
+    "lua-types": "^2.13.1",
+    "simple-git-hooks": "^2.11.1",
+    "taze": "^18.2.0",
+    "typed-factorio": "^3.11.0",
+    "typescript": "^5.7.3",
+    "typescript-to-lua": "^1.29.1"
+  }
+}

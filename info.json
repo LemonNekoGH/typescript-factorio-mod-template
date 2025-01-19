@@ -1,0 +1,9 @@
+{
+  "name": "<mod-name>",
+  "version": "0.1.0",
+  "title": "<mod-name>",
+  "author": "<author-name>",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0"],
+  "description": "<mod-description>"
+}
